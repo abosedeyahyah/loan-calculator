@@ -1,6 +1,5 @@
 
 document.querySelector('#loan-form').addEventListener('submit', function(e){
-    document.querySelector('#results').style.display = 'none';
     document.querySelector('#loading').style.display = 'block';
 
     setTimeout(calculateResults, 2000);
